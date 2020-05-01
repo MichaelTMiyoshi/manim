@@ -43,6 +43,10 @@ python3 ./manim.py example_scenes.py SquareToCircle -pl
     ```sh
     pip3 install C:\path\to\wheel\pycairo‑1.18.0‑cp37‑cp37m‑win32.whl
     ```
+   
+   Note: The filename of the .whl file gives you some clues.  The cp## tells you the specific version of Python it is for.  And make sure to know which processor you are using too.
+    
+   Note: You might need to [install pip](https://www.liquidweb.com/kb/install-pip-windows/) first.  Do not worry.  Copy the binary file to a new text document.  Then, rename the text document to get-pip.py and follow the instructions at the site.
 3. Install a LaTeX distribution. [MiKTeX](https://miktex.org/download) is recommended.
 
 4. [Install SoX](https://sourceforge.net/projects/sox/files/sox/).
